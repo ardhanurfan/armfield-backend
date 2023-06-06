@@ -54,6 +54,7 @@ class DataPlantController extends Controller
                 'pump_n2' => 'numeric',
                 'set_point_t1' => 'numeric',
                 'set_point_t2' => 'numeric',
+                'set_point_t3' => 'numeric',
                 'valve_tank_a' => 'numeric',
                 'user_id' => 'integer',
             ]);
@@ -69,6 +70,7 @@ class DataPlantController extends Controller
                 'pump_n2' => $request->pump_n2,
                 'set_point_t1' => $request->set_point_t1,
                 'set_point_t2' => $request->set_point_t2,
+                'set_point_t2' => $request->set_point_t3,
                 'valve_tank_a' => $request->valve_tank_a,
                 'user_id' => $request->user_id,
             ]);
