@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('data_plant', function (Blueprint $table) {
+        Schema::create('data_plants', function (Blueprint $table) {
             $table->id();
             $table->double('tank_a')->nullable();
             $table->double('feed_flow_f1')->nullable();
@@ -23,8 +23,8 @@ return new class extends Migration
             $table->double('pump_n2')->nullable();
             $table->double('set_point_t1')->nullable();
             $table->double('set_point_t2')->nullable();
+            $table->double('set_point_t3')->nullable();
             $table->double('valve_tank_a')->nullable();
-            $table->double('timestamp')->nullable();
             $table->foreignId('user_id')->nullable()->constrained('users')->onDelete('set null')->onUpdate('cascade');
             $table->timestamps();
         });

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\API\DataPlantController;
 use App\Http\Controllers\API\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -16,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 */
 Route::post('register', [UserController::class, 'register']);
 Route::post('login', [UserController::class, 'login']);
+
+Route::get('data-plant', [DataPlantController::class, 'all']);
+Route::post('data-plant', [DataPlantController::class, 'add']);
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('logout', [UserController::class, 'logout']);
