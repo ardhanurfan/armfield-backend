@@ -4,11 +4,11 @@
 Run It! for get the api documentation
 
 ## HOW TO RUN
-```npm install```
-```composer install```
-create and adjust .env file
-```php artisan key:generate```
-```php artisan migrate```
+```npm install``` <br/>
+```composer install``` <br/>
+create and adjust .env file <br/>
+```php artisan key:generate``` <br/>
+```php artisan migrate``` <br/>
 
 ## About Laravel
 
