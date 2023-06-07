@@ -1,5 +1,12 @@
-## DOCUMENTATION
+## POSTMAN DOCUMENTATION
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22917940-6254f322-b714-46f1-845f-3c43cd829a10?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D22917940-6254f322-b714-46f1-845f-3c43cd829a10%26entityType%3Dcollection%26workspaceId%3D84516a43-e034-4104-8efb-f47f10982d74)
+
+## HOW TO RUN
+''' npm install'''
+'''composer install'''
+create and adjust .env file
+'''php artisan key:generate'''
+'''php artisan migrate'''
 
 
 
