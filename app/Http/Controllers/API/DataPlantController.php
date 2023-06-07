@@ -12,16 +12,45 @@ class DataPlantController extends Controller
 {
     public function all(Request $request) {
         $user_id = $request->input('user_id');
+        
+        if($user_id) 
+        {
+            $data = DataPlant::where('user_id', $user_id);
+
+            if($data){
+                return ResponseFormatter::success(
+                    $data->get(), 
+                    'Get by user_id data successfully'
+                );
+            } else {
+                return ResponseFormatter::error(
+                    null,
+                    'Data not found',
+                    404
+                );
+            }
+        }
+
+        $data = DataPlant::all();
+
+        return ResponseFormatter::success(
+            $data,
+            'Get all data plant successfully'
+        );
+    }
+
+    public function getPaginate(Request $request) {
+        $user_id = $request->input('user_id');
         $limit = $request->input('limit');
 
         
         if($user_id) 
         {
-            $data = DataPlant::find($user_id);
+            $data = DataPlant::where('user_id', $user_id);
 
             if($data){
                 return ResponseFormatter::success(
-                    $data, 
+                    $data->paginate($limit), 
                     'Get by user_id data successfully'
                 );
             } else {
@@ -37,7 +66,7 @@ class DataPlantController extends Controller
 
         return ResponseFormatter::success(
             $data,
-            'Get galleries data successfully'
+            'Get data plant successfully'
         );
     }
 

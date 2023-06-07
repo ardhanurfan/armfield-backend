@@ -18,7 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::post('register', [UserController::class, 'register']);
 Route::post('login', [UserController::class, 'login']);
 
-Route::get('data-plant', [DataPlantController::class, 'all']);
+Route::get('data-plant', [DataPlantController::class, 'getPaginate']);
+Route::get('data-plant-all', [DataPlantController::class, 'all']);
 Route::post('data-plant', [DataPlantController::class, 'add']);
 
 Route::middleware('auth:sanctum')->group(function () {
