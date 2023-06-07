@@ -4,11 +4,25 @@
 Run It! for get the api documentation
 
 ## HOW TO RUN
-```npm install``` <br/>
-```composer install``` <br/>
-create and adjust .env file <br/>
-```php artisan key:generate``` <br/>
-```php artisan migrate``` <br/>
+1. I use local server in Laragon application. You can download at https://laragon.org/
+2. I also use adminer DBMS on Laragon root to manage the data
+3. SetUp your backend with Laravel configuration below.
+```firts clone this repository in www Laragon's directory``` </br>
+```cmd
+npm install
+```
+```cmd 
+composer install
+```
+create and adjust .env file </br>
+```cmd
+php artisan key:generate
+```
+```cmd
+php artisan migrate
+```
+**If you not using php ```artisan migrate``` , you can import this sql file in adminer or your dbms**
+<a href="https://drive.google.com/file/d/1WcP8LvORTqAOJfmbLFmg8_vuAC7IXnKf/view?usp=sharing">Sql File</a>
 
 ## About Laravel
 
