@@ -1,14 +1,16 @@
 ## POSTMAN DOCUMENTATION
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22917940-6254f322-b714-46f1-845f-3c43cd829a10?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D22917940-6254f322-b714-46f1-845f-3c43cd829a10%26entityType%3Dcollection%26workspaceId%3D84516a43-e034-4104-8efb-f47f10982d74)
 
+Run It! for get the api documentation
+
 ## HOW TO RUN
-''' npm install'''
-'''composer install'''
+```npm install```
+```composer install```
 create and adjust .env file
-'''php artisan key:generate'''
-'''php artisan migrate'''
+```php artisan key:generate```
+```php artisan migrate```
 
-
+## About Laravel
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
@@ -19,7 +21,6 @@ create and adjust .env file
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
