@@ -1,25 +1,6 @@
-## POSTMAN DOCUMENTATION
+<!-- ## POSTMAN DOCUMENTATION
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22917940-6254f322-b714-46f1-845f-3c43cd829a10?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D22917940-6254f322-b714-46f1-845f-3c43cd829a10%26entityType%3Dcollection%26workspaceId%3D84516a43-e034-4104-8efb-f47f10982d74)
-
-**POST**
-```cmd
-{{API_URL}}/api/register
-```
-Form Data:
-```name``` text|required </br>
-```email``` email|required </br>
-```password``` text|required </br>
-</br>
-**POST**
-```cmd
-{{API_URL}}/api/login
-```
-Form Data:
-```name``` text|required </br>
-```password``` text|required </br>
-</br>
-
-Run It! for get the api documentation
+Run It! for get the api documentation -->
 
 ## HOW TO RUN
 1. I use local server in Laragon application. You can download at https://laragon.org/
