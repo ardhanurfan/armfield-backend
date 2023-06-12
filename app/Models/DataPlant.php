@@ -25,7 +25,10 @@ class DataPlant extends Model
         'pump_n2',
         'set_point_t1',
         'set_point_t2',
-        'set_point_t3',
+        'set_point_f1',
+        'model_t1',
+        'model_t2',
+        'model_f1',
         'valve_tank_a',
         'user_id',
     ];
