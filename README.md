@@ -1,3 +1,30 @@
+<!-- ## POSTMAN DOCUMENTATION
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/22917940-6254f322-b714-46f1-845f-3c43cd829a10?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D22917940-6254f322-b714-46f1-845f-3c43cd829a10%26entityType%3Dcollection%26workspaceId%3D84516a43-e034-4104-8efb-f47f10982d74)
+Run It! for get the api documentation -->
+
+## HOW TO RUN
+1. I use local server in Laragon application. You can download at https://laragon.org/
+2. I also use adminer DBMS on Laragon root to manage the data
+3. Setup your backend with Laravel configuration below. </br>
+```firts clone this repository in www Laragon's directory``` </br>
+```cmd
+npm install
+```
+```cmd 
+composer install
+```
+create and adjust .env file </br>
+```cmd
+php artisan key:generate
+```
+```cmd
+php artisan migrate
+```
+**If you not using php ```artisan migrate``` , you can import this sql file in adminer or your dbms**
+<a href="https://drive.google.com/file/d/1WcP8LvORTqAOJfmbLFmg8_vuAC7IXnKf/view?usp=sharing">Sql File</a>
+
+## About Laravel
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -7,7 +34,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
